@@ -26,19 +26,23 @@ export default function Home() {
           staying ahead of potential dangers.
         </p>
 
-        <div className="mt-8 space-y-4">
-          <Link
-            href="/alerts"
-            className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-          >
-            View Alerts
-          </Link>
-          <Link
-            href="/safety"
-            className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Safety Tips
-          </Link>
+        <div className="flex justify-center mt-8 gap-8">
+          <div>
+            <Link
+              href="/alerts"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-7 rounded"
+            >
+              Alert me
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="/safety"
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Safety Tips
+            </Link>
+          </div>
         </div>
       </main>
 
