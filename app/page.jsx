@@ -47,9 +47,7 @@ export default function Home() {
       </main>
 
       <footer className="w-full h-24 flex items-center justify-center border-t">
-        <p className="text-center text-sm">
-          © 2024 Landslide Alert. All rights reserved.
-        </p>
+        <p className="text-center text-sm">Landslide Alert System</p>
       </footer>
     </div>
   );
